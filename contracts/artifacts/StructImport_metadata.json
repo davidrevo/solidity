@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StructImport.sol": "StructImport"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StructDeclaration.sol": {
+			"keccak256": "0xa96dd20026c8f04619257f2cea2973575a4d855d2485ffbe6d6cfe4b915c07ce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://65ffbc7c0ec326beb09e592985638a25bc3f96123c238761e4df900d3609fa8b",
+				"dweb:/ipfs/QmPfsHNNAm9oLXeSf5eYrnAoXvSjGH7KcBkMpU2buo6uAw"
+			]
+		},
+		"contracts/StructImport.sol": {
+			"keccak256": "0x734f05186f388d01458a41ff618d82758e11da22883e8ad6766c4edcce00aa38",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c272c9de5fd21b6db224a27b6ab358b920b9c73a7277665c1425f72d3bb65630",
+				"dweb:/ipfs/Qme3XRpRx7xeDv3cpHDNTU9Fk2QwctwtGF2Pr9iiZPXBZc"
+			]
+		}
+	},
+	"version": 1
+}
