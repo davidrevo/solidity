@@ -27,6 +27,51 @@
 			{
 				"inputs": [],
 				"name": "f",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "foo",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DataLocations.MyStruct",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "g",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "h",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -60,11 +105,11 @@
 	},
 	"sources": {
 		"contracts/DataLocations.sol": {
-			"keccak256": "0xece85df63c683c5870fe23326fd218300e6e4611417fb97f92d327b247498d44",
+			"keccak256": "0x595d453d569cc852a625418794283463283ff7f47c279f78f090185db0039e6f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb9cb2376b21a12800b0330ba848aca20d882b2bd8b9e7cb26702d616ccc2892",
-				"dweb:/ipfs/QmQWuAfJQWMjRyPsD4s8DDF3hbxXuSGctL1VnPSAMNM9ed"
+				"bzz-raw://3f61614ea249585bcc5858eb84f7b3892dd3baab2cfedf65c8d85258aa615e1b",
+				"dweb:/ipfs/QmaGh6YezLHDmCFnxhfEAMdv312NBG9Mw89Npm3RBd9arM"
 			]
 		}
 	},
